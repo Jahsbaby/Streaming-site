@@ -1,0 +1,110 @@
+html{
+    font-size: 50%;
+}
+
+ul{
+    display: none;
+}
+
+div.body{
+    background-color: rgba(0, 0, 0, 0.801); 
+    background-image: url(img/background.png);
+    margin-left: 0;
+    height: 386.5vh;
+    position: sticky;
+}
+
+div.body2{
+    background-image: linear-gradient(to right, rgba(43, 40, 40, 0.726), rgba(0, 0, 0, 0.808));
+    height: 386.5vh;
+    
+}
+
+div.body header{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+    border-bottom: 1px solid white;
+}
+
+div.body form input{
+    width: 30rem;
+    border-radius: 1.5rem;
+    border: 1px solid white;
+    outline: none;
+    padding: 0.8rem 2rem;
+}
+
+
+section#sec1 div.box1{
+    width: 95%;
+    background-image: linear-gradient(to top right, rgb(181, 165, 243), #3706fa);
+    height: 22rem;
+    border-radius: 10px;
+    position: relative;
+    color: white;
+}
+
+section#sec1 div.box1 h1{
+    font-size: 2.4rem;
+    text-align: center;
+    padding: 4rem 3.8rem 0 3.8rem;
+    font-weight: 700;
+}
+
+section#sec1 div.box1 a.right{
+    background-color: transparent;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border-radius: 20px;
+    font-size: 1.7rem;
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid white;
+}
+
+section#sec2  .grid-container {
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+section#sec2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section#sec1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+section#sec2  .grid-container {
+    width: 100%;
+}
+
+#sec3{
+    width: 100%;
+}
+
+#sec3 .item img {
+    width: 15%;
+    height: auto;
+    border-radius: 60px;
+    float: left;
+}
+
+.footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
